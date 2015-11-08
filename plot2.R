@@ -41,7 +41,8 @@ subsetDat <- dat[dat$Date == "2007/02/01" | dat$Date == "2007/02/02", ]
 ### Create plot
 
 with(subsetDat, {
-    png("plot2.png", width = 480, height = 480)
-    plot(subsetDat$Date, subsetDat$Global_active_power, type = "l")
+    x <- strptime(paste(subsetDat$Date, subsetDat$Time), "%Y-%m-%d %H:%M:%S")
+    y <- subsetDat$Global_active_power
+    plot(x, y, type = "l", ylab = "Global Active Power (kilowatts)", xlab = "")
     dev.off()
 })
