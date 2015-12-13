@@ -1,7 +1,7 @@
 ###########################
 # plot3.R
 # Produce a line graph of energy by each sub meter by day
-#
+# 
 ###########################
 
 ### Read the data in and prep it for plotting

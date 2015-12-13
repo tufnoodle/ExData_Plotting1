@@ -1,7 +1,7 @@
 ###########################
 # plot2.R
 # Produce a line graph of global active power by day
-#
+# 
 ###########################
 
 ### Read the data in and prep it for plotting

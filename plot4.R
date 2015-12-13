@@ -4,7 +4,7 @@
 #   Global Active Power
 #   Voltage
 #   Energy by sub metering
-#   Gloabal Reactive Power
+#   Gloabal Reactive Power 
 ###########################
 
 ### Read the data in and prep it for plotting

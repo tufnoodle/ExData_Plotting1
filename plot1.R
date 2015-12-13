@@ -1,7 +1,7 @@
 ###########################
 # plot1.R
 # Produce a histogram of global active power
-#
+# 
 ###########################
 
 ### Read the data in and prep it for plotting
